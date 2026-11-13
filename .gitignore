@@ -48,3 +48,11 @@ application-secret.properties
 
 ### Logs ###
 *.log
+
+# OnlyRooms uploaded documents - never commit private documents
+onlyrooms-uploads/
+georent-uploads/
+
+# Local backup files
+*.backup
+*.bak
